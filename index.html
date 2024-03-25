@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flexible Learning-based CDN Caching</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        h1, h2 {
+            color: #005A9C;
+        }
+        p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        header p {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <p>Researchers: Waleed Ahmad     &       Dhruv Dalwadi</p>
+    </header>
+    
+    <div class="container">
+        <div class="section">
+            <h1>Context</h1>
+            <p>This research project, inspired by the dynamic cache management system "Darwin" from the paper (cite), centers on the networking implications of adaptive CDN cache policies. In the current digital landscape, CDNs play a pivotal role in delivering content efficiently across the globe. However, static caching policies traditionally used by CDNs are increasingly inadequate due to the unpredictable nature of internet traffic, which can fluctuate due to various factors such as time of day, geographic location, content popularity, and specific events. These fluctuations challenge the network's ability to maintain high performance, minimize latency, and optimize bandwidth usage. Consequently, there's a need for CDNs that can dynamically adapt their caching strategies to changing traffic patterns, ensuring efficient resource allocation and improving overall network performance.</p>
+        </div>
+        <div class="section">
+            <h1>Strategy</h1>
+            <p>The project focuses on the networking aspects of implementing an adaptive cache management system like Darwin within CDNs. The strategy encompasses the following key components:</p>
+            <h2>Literature Review: </h2>
+            <p>A thorough review of existing CDN architectures, focusing on their caching strategies, challenges in handling traffic variability, and the impact on network performance metrics such as latency, bandwidth usage, and congestion.
+                Traditional CDN architectures predominantly employ static caching policies, where content is cached based on predetermined rules such as content popularity or time-to-live (TTL) values. While effective under steady traffic conditions, these static strategies often struggle to accommodate sudden or unpredictable changes in traffic patterns, leading to challenges in maintaining optimal network performance.</p>
+            <h2>Traffic Pattern Analysis:</h2>
+            <p>Analyze real-world CDN traffic data to identify patterns and fluctuations. This analysis uncovers how varying demand across different times of day, content popularity shifts, and sudden traffic spikes can lead to suboptimal cache utilization, increased latency, and unnecessary bandwidth consumption. By identifying these patterns, the analysis highlights the inherent limitations of static caching policies, which are unable to dynamically adjust to these changes, leading to inefficient resource use and degraded user experiences. Conversely, this analysis also illuminates the potential benefits of adaptive caching strategies, which promise to dynamically realign CDN resources in response to observed traffic behaviors, thereby optimizing network performance, reducing congestion, and ensuring a more efficient allocation of bandwidth.</p>
+            <h2>Network Infrastructure Considerations: </h2>
+            <p>The project also assesses the implications of implementing an adaptive caching mechanism on existing CDN infrastructure. This includes evaluating the required changes to network architecture, potential challenges in deployment, and compatibility with current CDN technologies.
+                Transition involves integrating sophisticated traffic monitoring and analysis tools to facilitate real-time adjustments to caching policies based on observed traffic patterns. Such integration requires upgrades to hardware and software and the introduction of machine learning capabilities for data analysis and decision-making processes. Deployment challenges include ensuring minimal disruption to current operations, training technical staff to manage the new system, and debugging unforeseen issues that arise from the complex interactions between adaptive mechanisms and existing CDN components. </p>
+        </div>
+        <div class="section">
+            <h1>Evaluation</h1>
+            <p>The evaluation of your project focuses on assessing the effectiveness and impact of the adaptive caching mechanism on CDN performance and network optimization. Key evaluation criteria will include latency reduction, bandwidth optimization, congestion mitigation, resource utilization and scalability.</p>
+        </div>
+    </div>
+</body>
+</html>
